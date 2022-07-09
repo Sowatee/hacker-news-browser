@@ -8,7 +8,7 @@ import ThreadList from './components/ThreadList';
 function App() {
 
   const searchURL = "https://hn.algolia.com/api/v1/search_by_date?query=";
-  const defaultURL = "http://hn.algolia.com/api/v1/search?tags=front_page";  
+  const defaultURL = "https://hn.algolia.com/api/v1/search?tags=front_page";  
 
   const [url, setURL] = useState(defaultURL);
   const [hits, setHits] = useState([]);
