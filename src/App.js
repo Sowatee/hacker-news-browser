@@ -13,7 +13,6 @@ function App() {
   const [url, setURL] = useState(defaultURL);
   const [hits, setHits] = useState([]);
   const [page, setPage] = useState(0);
-  const [term, setTerm] = useState('');
 
   useEffect(() => {
     getHits();
